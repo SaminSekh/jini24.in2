@@ -193,7 +193,8 @@ function openBookingModal(serviceId, serviceName) {
       };
       const icon = (srv && srv.ImageURL) ? srv.ImageURL : ((srv && defaultIcons[srv.Category]) ? defaultIcons[srv.Category] : "https://cdn-icons-png.flaticon.com/512/2917/2917995.png");
       imgEl.src = icon;
-      imgEl.style.display = "block";
+      const wrapper = document.getElementById("booking-service-image-wrapper");
+      if(wrapper) wrapper.style.display = "block";
     };
 
     sel.innerHTML = services.filter(s => s.Status === "Active").map(s =>
