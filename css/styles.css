@@ -451,7 +451,7 @@ p  { line-height: 1.7; }
   -webkit-tap-highlight-color: transparent;
 }
 .modal-backdrop.open { opacity: 1; pointer-events: auto; }
-.modal-backdrop.open .modal { transform: translateY(0); }
+.modal-backdrop.open .modal { transform: translateY(-60px); }
 .modal {
   background: var(--color-surface);
   width: 100%; max-width: 540px; max-height: 92vh;
