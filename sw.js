@@ -1,16 +1,16 @@
 // ─── Jini24 Service Worker ───────────────────────────────────
-const CACHE_NAME = "jini24-v4";
+const CACHE_NAME = "jini24-v6";
 const OFFLINE_URL = "/index.html";
 
 // Assets to pre-cache on install
 const PRE_CACHE = [
   "/",
   "/index.html",
-  "/css/styles.css?v=4",
+  "/css/styles.css?v=5",
   "/js/api.js?v=4",
   "/js/app.js?v=4",
   "/js/admin.js?v=4",
-  "/js/customer.js?v=4",
+  "/js/customer.js?v=5",
   "/js/partner.js?v=4",
   "/logo.png",
   "/manifest.json"
